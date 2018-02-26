@@ -5,6 +5,7 @@
     'name': 'DOST - Delivery Order, Signed and Tracked',
     'version': '8.0.0.1.0',
     'category': 'Sale',
+    'license': 'AGPL-3',
     'summary': 'DOST - Delivery Order, Signed and Tracked',
     'description': """
     DOST - Delivery Order, Signed and Tracked
@@ -18,6 +19,8 @@
         'views/sale_dost_view.xml',
     ],
     'application': False,
+    'price': '39',
+    'currency': 'EUR',
     'installable': True,
     'auto_install': False,
 }
