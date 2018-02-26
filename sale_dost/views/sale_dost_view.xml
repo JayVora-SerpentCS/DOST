@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <!-- Inherited view of Sale order -->
+         <record id="view_sale_dost" model="ir.ui.view">
+            <field name="name">view.sale.extend</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form" />
+            <field name="arch" type="xml">
+            <field name="partner_id" position="after">
+                <field name="latitude"/>
+                <field name="longitude"/>
+                <field name="cust_sign_name" invisible="1"/>
+                <field name="cust_sign" widget="image" filename="cust_sign_name" height="60px" width="60px"/>
+                
+            </field>
+                <xpath expr="//field[@name='order_line'] //tree //field[@name='product_id']" position="after">
+                    <field name="prod_img_name" invisible="1"/>
+                    <field name="prod_image" filename="prod_img_name" widget="image" height="60px" width="60px"/>
+              </xpath> 
+           </field>
+       </record>
+  </data>
+</openerp>
