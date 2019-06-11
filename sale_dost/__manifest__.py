@@ -3,7 +3,7 @@
 
 {
     'name': 'DOST - Delivery Order, Signed and Tracked',
-    'version': '8.0.0.1.0',
+    'version': '10.0.1.0.0',
     'category': 'Sale',
     'license': 'AGPL-3',
     'summary': 'DOST - Delivery Order, Signed and Tracked',
