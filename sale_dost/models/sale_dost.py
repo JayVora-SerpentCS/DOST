@@ -10,14 +10,15 @@ class SaleOrder(models.Model):
     
     @api.multi
     def picking_state(self):
+        shipped = False
         for rec in self:
-            rec.shipped = False
             if rec.picking_ids:
                 picking_list = self.env['stock.picking'].search([
                                             ('id', 'in', rec.picking_ids.ids),
                                             ('state', '!=', 'done')])
                 if not picking_list:
-                    rec.shipped = True
+                    shipped = True
+            rec.shipped = shipped
 
     latitude = fields.Char('Latitude', copy=False)
     longitude = fields.Char('Longitude',  copy=False)
