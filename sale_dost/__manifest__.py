@@ -18,6 +18,7 @@
     'data': [
         'views/sale_dost_view.xml',
     ],
+    'images': ['static/description/banner_DOST.jpg'],
     'application': False,
     'price': '39',
     'currency': 'EUR',
