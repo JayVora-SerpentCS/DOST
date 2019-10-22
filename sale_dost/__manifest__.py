@@ -3,8 +3,8 @@
 
 {
     'name': 'DOST - Delivery Order, Signed and Tracked',
-    'version': '12.0.1.0.0',
-    'category': 'Sales',
+    'version': '13.0.1.0.0',
+    'category': 'Sale',
     'license': 'LGPL-3',
     'summary': 'DOST - Delivery Order, Signed and Tracked',
     'description': """
@@ -13,13 +13,12 @@
     'author': 'Serpent Consulting Services Pvt. Ltd.',
     'website': 'http://www.serpentcs.com',
 
-    'depends': ['sale_management', 'stock',],
+    'depends': ['stock', 'sale_management'],
 
     'data': [
         'views/sale_dost_view.xml',
     ],
     'application': False,
-    'images': ['static/description/banner_DOST.jpg'],    
     'price': '39',
     'currency': 'EUR',
     'installable': True,
