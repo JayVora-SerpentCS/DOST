@@ -6,6 +6,7 @@
     'version': '13.0.1.0.0',
     'category': 'Sale',
     'license': 'LGPL-3',
+    'live_test_url': 'https://youtu.be/roZbXESyhhg',
     'summary': 'DOST - Delivery Order, Signed and Tracked',
     'description': """
     DOST - Delivery Order, Signed and Tracked
