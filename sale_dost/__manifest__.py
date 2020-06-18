@@ -5,6 +5,7 @@
     'name': 'DOST - Delivery Order, Signed and Tracked',
     'version': '11.0.1.0.0',
     'category': 'Sales',
+    'live_test_url': 'https://youtu.be/roZbXESyhhg',
     'license': 'AGPL-3',
     'summary': 'DOST - Delivery Order, Signed and Tracked',
     'description': """
