@@ -20,6 +20,7 @@
         'views/sale_dost_view.xml',
     ],
     'application': False,
+    'images': ['static/description/banner_DOST.jpg'],
     'price': '39',
     'currency': 'EUR',
     'installable': True,

@@ -16,6 +16,7 @@
             </xpath>
             <xpath expr="//field[@name='signature']" position="replace">
                 <field name="signature" widget="image" style="width:300px;height:150px"/>
+                <field name="is_signed" invisible="1"/>
             </xpath>
             <xpath expr="//page[@name='customer_signature']" position="attributes">
                 <attribute name="groups">base.group_user</attribute>
