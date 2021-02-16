@@ -19,7 +19,7 @@ class SaleOrder(models.Model):
 
     latitude = fields.Char('Latitude', copy=False)
     longitude = fields.Char('Longitude', copy=False)
-    shipped = fields.Boolean(compute='picking_state', string='Shipped')
+    shipped = fields.Boolean(compute='picking_state', 'Shipped')
     is_signed = fields.Boolean('Is signed', defualt=False)
 
 class SaleOrderLine(models.Model):
