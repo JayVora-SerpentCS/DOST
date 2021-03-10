@@ -3,14 +3,20 @@
 
 {
     'name': 'DOST - Delivery Order, Signed and Tracked',
-    'version': '13.0.1.0.0',
+    'summary': 'This module presents a delivery boy-friendly mobile app working with Odoo. The application helps the delivery boy get the order confirmed, signed, and tracked, and the data is sent to the server.',
+    'description': """
+		This module presents a delivery boy-friendly mobile app working with Odoo. The application helps the delivery boy get the order confirmed, signed, and tracked, and the data is sent to the server.
+		DOST - Delivery Order, Signed and Tracked
+		Delivery Order, Signed and Tracked
+		Odoo Delivery Order, and Tracked
+		Delivery Order, and Tracked in odoo
+		Delivery Order, Signed and Tracked app
+		Odoo signed and tracked app
+    """,
+    'version': '14.0.1.0.0',
     'category': 'Sale',
     'license': 'LGPL-3',
     'live_test_url': 'https://youtu.be/roZbXESyhhg',
-    'summary': 'DOST - Delivery Order, Signed and Tracked',
-    'description': """
-    DOST - Delivery Order, Signed and Tracked
-    """,
     'author': 'Serpent Consulting Services Pvt. Ltd.',
     'website': 'http://www.serpentcs.com',
 
@@ -21,6 +27,7 @@
     ],
     'application': False,
     'images': ['static/description/banner_DOST.jpg'],
+    "live_test_url": "https://www.youtube.com/watch?v=roZbXESyhhg",
     'price': '39',
     'currency': 'EUR',
     'installable': True,
