@@ -26,7 +26,7 @@
         'views/sale_dost_view.xml',
     ],
     'application': False,
-    'images': ['static/description/banner_DOST.jpg'],
+    'images': ['static/description/DOST.png'],
     "live_test_url": "https://www.youtube.com/watch?v=roZbXESyhhg",
     'price': '39',
     'currency': 'EUR',
