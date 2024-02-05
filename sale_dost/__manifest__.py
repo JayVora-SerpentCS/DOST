@@ -13,7 +13,7 @@
 		Delivery Order, Signed and Tracked app
 		Odoo signed and tracked app
     """,
-    'version': '14.0.1.0.0',
+    'version': '15.0.1.0.0',
     'category': 'Sale',
     'license': 'LGPL-3',
     'live_test_url': 'https://youtu.be/roZbXESyhhg',

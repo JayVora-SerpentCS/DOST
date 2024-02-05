@@ -22,8 +22,9 @@ class SaleOrder(models.Model):
     shipped = fields.Boolean(compute='picking_state')
     is_signed = fields.Boolean('Is signed', defualt=False)
 
+
 class SaleOrderLine(models.Model):
     _inherit = 'sale.order.line'
 
     prod_image = fields.Binary('Product Image', copy=False)
-    prod_img_name = fields.Char(' Received Product Image Name', copy=False)
+    prod_img_name = fields.Char('Received Product Image Name', copy=False)
