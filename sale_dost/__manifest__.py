@@ -28,7 +28,7 @@
     'application': False,
     'images': ['static/description/DOST V-17.png'],
     "live_test_url": "https://www.youtube.com/watch?v=roZbXESyhhg",
-    'price': '39',
+    'price': '59',
     'currency': 'EUR',
     'installable': True,
     'auto_install': False,
