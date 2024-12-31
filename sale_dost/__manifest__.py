@@ -13,12 +13,12 @@
 		Delivery Order, Signed and Tracked app
 		Odoo signed and tracked app
     """,
-    'version': '17.0.1.0.0',
+    'version': '18.0',
     'category': 'Sale',
     'license': 'LGPL-3',
     'live_test_url': 'https://youtu.be/roZbXESyhhg',
     'author': 'Serpent Consulting Services Pvt. Ltd.',
-    'website': 'http://www.serpentcs.com',
+    'website': 'https://www.serpentcs.com',
 
     'depends': ['stock', 'sale_management'],
 
@@ -26,7 +26,7 @@
         'views/sale_dost_view.xml',
     ],
     'application': False,
-    'images': ['static/description/DOST V-17.png'],
+    'images': ['static/description/Banner_sale_dost.png'],
     "live_test_url": "https://www.youtube.com/watch?v=roZbXESyhhg",
     'price': '59',
     'currency': 'EUR',
